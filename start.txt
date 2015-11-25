@@ -1,0 +1,47 @@
+Cíle předmětu (anotace):
+Předmět je úvodním kursem do databázových systémů (DBS), věnuje se praktickým i teoretickým základům relačních DBS.
+Po představení relačního modelu dat tvoří praktickou část kursu úvod do (dotazovacího) jazyka SQL,
+ve kterém jsou ukazovány základy práce s relačními databázemi a do kterého je vložen úvod do analýzy a návrhu relační databáze.
+Teoretické základy relačních DBS zahrnují zejména relační algebru, problematiku funkčních závislostí mezi záznamy,
+normální normy a základní principy transakčního zpracování.
+Předpokládají se základní znalosti algebry a programovacích jazyků. Předpokladem nejsou předchozí znalosti nebo zkušenosti s DBS.
+
+Požadavky na studenta
+Zkouška:
+Ústní zkoušení znalosti látky z přednášek.
+
+Obsah
+Praktickou část kursu tvoří úvod do (dotazovacího) jazyka SQL, pomocí kterého studenti ve cvičeních
+prakticky operují s modelovou databází (v systémech Oracle 10 a MS SQL Server 2005). Úvod do teorie relačních DBS
+zahrnuje zejména relační algebru, problematiku funkčních závislostí mezi záznamy, normální normy a základní
+principy transakčního zpracování. U oboru Informatika je tato část probírána po teoretické stránce do více
+detailů než u ostatních oborů.
+
+  * Úvod do DBS. Pojmy, data a jejich abstraktní modely. Architektura DBS. Modely DBS.
+  * Relační model DBS, jeho vlastnosti, relační struktura dat, jazyk relačního DBS. Úvod do jazyka SQL. SQL, vytvoření a naplnění tabulky,
+    dotazy (s podmínkami, sloupcové funkce).
+  * Agregace, vnořené dotazy, manipulace s daty. Referenční integrita, integritní omezení, primární a sekundární klíč.
+  * Spojení tabulek. Cizí klíč. Modifikace struktury tabulky. Množinové operace, kvantifikátory.
+  * Analýza a návrh relační DB. Konceptuální modelování. ER model. Transformace do relačního modelu. Konstrukce složitějších dotazů.
+  * Další prvky relačních DBS a SQL. Tranzitivní uzávěr tabulky. Pohledy, triggery a indexy. Spolupráce SQL s jinými jazyky.
+    Základy administrace relačních DBS.
+  * Transakční zpracování dat. Základní principy transakčního zpracování. Ochrana proti porušení konzistence dat.
+    Paralelní zpracování transakcí. Paralelní zpracování transakcí, uzamykací protokoly, uváznutí (deadlock), dvoufázový protokol, časová razítka.
+  * Teoretické základy relačních DBS. Formalizace tabulky, relační algebra, relační logika a kalkuly, dotazovací systémy.
+  * Funkční závislosti, Armstrongovy axiomy, uzávěr, pokrytí.
+  * Normální formy. První, druhá a třetí normální forma. Boyce-Coddova normální forma. Normalizace dekompozicí relačních schémat.
+
+Garanti: doc. RNDr. Vilém Vychodil, Ph.D., 
+Přednášející: Ing. Jiří Hronek,  Mgr. Petr Krajča, Ph.D., 
+
+======Literatura======
+  * Johnson J. L. Database Models, Languages, Design. Oxford Univesity Press, 1997. [[isbn>0-19-510783-7]]
+  * Connolly Thomas, Begg Carolyn. Database Systems: A Practical Approach to Design, Implementation and Management. Addison Wesley, 2002. [[isbn>0-201-70857-4]]
+  * Connolly T., Begg C. Database Systems. A Practical Approach to Design, Implementation and Management, 3rd edition. Addison Wesley, 2002. [[isbn>0-201-70857-4]]
+  * Rob. P., Coronel C. Database Systems. Design, Implementation & Management, 6th edition. Thomson Course Technology, 2004. [[isbn>0-619-21372-8]]
+  * Hronek J. Databázové systémy. Učební text. Katedra informatiky, UP, 2008.
+  * Pokorný J. Databázové systémy a jejich použití v informačních systémech. Academia, 1992. [[isbn>80-200-0177-8]]
+  * Elmasri R., Navathe S. B. Fundamentals of Database Systems, 3rd edition. Addison Wesley, 2000. [[isbn>0-8053-1755-4]]
+  * Simovici D. A., Tenney R. L. Relational Database Systems. Academic Press, 1995. [[isbn>0126443750]]
+  * Maier R. The Theory of Relational Databases. Computer Science Press, 1983. [[isbn>0-914894-42-0]]
+
